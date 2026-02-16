@@ -32,7 +32,7 @@ namespace GestiuneCarti.Forms
         {
             coloana_cb.Items.Clear();
             coloana_cb.Items.AddRange(new object[] {
-                "ID_CARTE","TITLU", "AUTOR", "LOCUL_PUBLICARII", "ANUL_PUBLICARII", "ID_CZU", "PRET"
+                "ID_CARTE","ID_VECHI","TITLU", "AUTOR", "LOCUL_PUBLICARII", "ANUL_PUBLICARII", "ID_CZU", "PRET"
             });
         }
 
@@ -68,6 +68,10 @@ namespace GestiuneCarti.Forms
                 if (valoare_tb.Text == string.Empty)
                 {
                     throw new Exception("Valore invalidă!");
+                }
+                if (valoare_tb.Text == "NULL")
+                {
+                    valoare = "NULL";
                 } else valoare = valoare_tb.Text;
 
                 var dataTable = Data.CriteriaLoadTable(connection, valoare, coloana);

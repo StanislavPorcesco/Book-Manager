@@ -155,7 +155,7 @@
             margin_tb.Name = "margin_tb";
             margin_tb.Size = new Size(732, 38);
             margin_tb.TabIndex = 14;
-            margin_tb.Text = "60";
+            margin_tb.Text = "30";
             // 
             // ImprimareForm
             // 

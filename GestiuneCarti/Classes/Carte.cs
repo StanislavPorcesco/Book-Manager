@@ -9,6 +9,7 @@ namespace GestiuneCarti
     public class Carte
     {
         private int idCarte;
+        private int idVechi;
         private string titlu;
         private string autor;
         private string loculPublicarii;
@@ -16,9 +17,10 @@ namespace GestiuneCarti
         private string idCZU;
         private decimal pret;
 
-        public Carte(int idCarte, string titlu, string autor, string loculPublicarii, int anulPublicarii, string idCZU, decimal pret)
+        public Carte(int idCarte, int idVechi, string titlu, string autor, string loculPublicarii, int anulPublicarii, string idCZU, decimal pret)
         {
             this.idCarte = idCarte;
+            this.idVechi = idVechi;
             this.titlu = titlu;
             this.autor = autor;
             this.loculPublicarii = loculPublicarii;
@@ -28,6 +30,7 @@ namespace GestiuneCarti
         }
 
         public int getIdCarte() {  return idCarte; }
+        public int getIdVechi() { return idVechi; }
         public string getTitlu() {  return titlu; }
         public string getAutor() { return autor; }
         public string getLoculPublicarii() {  return loculPublicarii; }
@@ -36,6 +39,7 @@ namespace GestiuneCarti
         public decimal getPret() {  return pret; }
 
         public void setIdCarte(int valoare) {  this.idCarte = valoare;}
+        public void setIdVechi(int valoare) { this.idVechi = valoare;}
         public void setTitlu(string valoare) {  this.titlu = valoare;}
         public void setAutor(string valoare) {  this.autor = valoare;}
         public void setLoculPublicarii(string valoare) {  this.loculPublicarii = valoare;}

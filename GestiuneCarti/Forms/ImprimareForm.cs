@@ -38,7 +38,6 @@ namespace GestiuneCarti.Forms
             //string pdfPath = Path.Combine(Application.StartupPath, "registru_carti.pdf");
             string pdfPath = Path.Combine(Application.StartupPath, $"registru_carti_{Guid.NewGuid()}.pdf");
 
-
             string query = "SELECT * FROM Carti";
             using (var cmd = new SQLiteCommand(query, connection))
             using (var reader = cmd.ExecuteReader())
@@ -52,17 +51,15 @@ namespace GestiuneCarti.Forms
                 XFont fontRow = new XFont("Arial", 9, XFontStyleEx.Regular);
 
                 // distanda de la stanga
-
-                //int leftoffset = 60;
-                int leftoffset = Convert.ToInt32(margin_tb.Text);
+                int leftoffset = int.TryParse(margin_tb?.Text, out var parsedMargin) ? parsedMargin : 35;
                 double margin = 15;
                 double y = margin;
                 double rowHeight = 30;
 
                 // latimile coloanelor
-                double[] colWidths = {30, 100, 160, 100, 30, 50, 40, 50, 60, 40, 40};
+                double[] colWidths = {30, 100, 160, 70, 30, 100, 40, 50, 60, 40, 40, 45};
 
-                string[] headers = {"ID", "Autor", "Tiltu", "Locul publicarii", "Anul", "CZU", "Pret", "Mențiuni", "Însemnări","Data", "R.M.F"};
+                string[] headers = {"ID", "Autor", "Tiltu", "Loc pub.", "Anul", "CZU", "Pret", "Mențiuni", "Însemnări","Data", "R.M.F", "ID Vechi"};
 
                 // desenam header
                 double x = margin;
@@ -80,14 +77,18 @@ namespace GestiuneCarti.Forms
                 {
                     x = margin + leftoffset;
                     string[] valori = {
-                    reader["ID_CARTE"].ToString(),
-                    reader["AUTOR"].ToString(),
-                    reader["TITLU"].ToString(),
-                    reader["LOCUL_PUBLICARII"].ToString(),
-                    reader["ANUL_PUBLICARII"].ToString(),
-                    reader["ID_CZU"].ToString(),
-                    reader["PRET"].ToString(),
-                    "", "", "", ""
+                    reader["ID_CARTE"]?.ToString() ?? string.Empty,
+                    reader["AUTOR"]?.ToString() ?? string.Empty,
+                    reader["TITLU"]?.ToString() ?? string.Empty,
+                    reader["LOCUL_PUBLICARII"]?.ToString() ?? string.Empty,
+                    reader["ANUL_PUBLICARII"]?.ToString() ?? string.Empty,
+                    reader["ID_CZU"]?.ToString() ?? string.Empty,
+                    reader["PRET"]?.ToString() ?? string.Empty,
+                    string.Empty,
+                    string.Empty,
+                    string.Empty,
+                    string.Empty,
+                    reader["ID_VECHI"]?.ToString() ?? string.Empty
                 };
                     for (int i = 0; i < valori.Length; i++)
                     {      
@@ -106,6 +107,7 @@ namespace GestiuneCarti.Forms
                     {
                         page = document.AddPage();
                         page.Orientation = PdfSharp.PageOrientation.Landscape;
+                        gfx?.Dispose();
                         gfx = XGraphics.FromPdfPage(page);
                         y = margin;
                     }
@@ -116,11 +118,11 @@ namespace GestiuneCarti.Forms
 
                 document.Save(currentPdfStream, false);
                 currentPdfStream.Position = 0;
-            }
 
-            var pdfDoc = PdfiumViewer.PdfDocument.Load(currentPdfStream);
-            pdfViewer.Document?.Dispose();
-            pdfViewer.Document = pdfDoc;
+                var pdfDoc = PdfiumViewer.PdfDocument.Load(currentPdfStream);
+                pdfViewer?.Document?.Dispose();
+                pdfViewer.Document = pdfDoc;
+            }
         }
     }
 }

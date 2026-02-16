@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GestiuneCarti", "GestiuneCarti\GestiuneCarti.csproj", "{571EE9F9-2089-468D-9310-1507EC5F1142}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{571EE9F9-2089-468D-9310-1507EC5F1142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571EE9F9-2089-468D-9310-1507EC5F1142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571EE9F9-2089-468D-9310-1507EC5F1142}.Debug|x64.ActiveCfg = Debug|x64
+		{571EE9F9-2089-468D-9310-1507EC5F1142}.Debug|x64.Build.0 = Debug|x64
+		{571EE9F9-2089-468D-9310-1507EC5F1142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571EE9F9-2089-468D-9310-1507EC5F1142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{571EE9F9-2089-468D-9310-1507EC5F1142}.Release|x64.ActiveCfg = Release|x64
+		{571EE9F9-2089-468D-9310-1507EC5F1142}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A77B1D8-C57C-47B7-BF54-E2D74D4BFE07}
+	EndGlobalSection
+EndGlobal

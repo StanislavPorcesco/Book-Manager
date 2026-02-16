@@ -18,6 +18,7 @@ namespace GestiuneCarti
             string createTableQuery = @"
                     CREATE TABLE IF NOT EXISTS Carti (
                     ID_CARTE INTEGER PRIMARY KEY,
+                    ID_VECHI INTEGER,
                     TITLU TEXT NOT NULL,
                     AUTOR TEXT NOT NULL,
                     LOCUL_PUBLICARII TEXT NOT NULL,
@@ -34,9 +35,10 @@ namespace GestiuneCarti
         public static void adaugaCarte(SQLiteConnection connection, Carte carte)
         {
 
-            using(var cmd = new SQLiteCommand("INSERT INTO Carti VALUES (@id_carte, @titlu, @autor, @locul_publicarii, @anul_publicarii, @id_czu, @pret)", connection))
+            using(var cmd = new SQLiteCommand("INSERT INTO Carti VALUES (@id_carte, @id_vechi, @titlu, @autor, @locul_publicarii, @anul_publicarii, @id_czu, @pret)", connection))
             {
                 cmd.Parameters.AddWithValue("@id_carte", carte.getIdCarte());
+                cmd.Parameters.AddWithValue("@id_vechi", carte.getIdVechi());
                 cmd.Parameters.AddWithValue("@titlu", carte.getTitlu());
                 cmd.Parameters.AddWithValue("@autor", carte.getAutor());
                 cmd.Parameters.AddWithValue("@locul_publicarii", carte.getLoculPublicarii());

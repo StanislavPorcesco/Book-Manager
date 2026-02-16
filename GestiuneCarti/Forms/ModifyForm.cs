@@ -29,7 +29,7 @@ namespace GestiuneCarti.Forms
         {
             optiune_cb.Items.Clear();
             optiune_cb.Items.AddRange(new object[] { 
-                "TITLU", "AUTOR", "LOCUL_PUBLICARII", "ANUL_PUBLICARII", "ID_CZU", "PRET" 
+                "TITLU", "AUTOR", "LOCUL_PUBLICARII", "ANUL_PUBLICARII", "ID_CZU", "PRET", "ID_VECHI" 
             });
         }
         private void modificaCarte_btn_Click(object sender, EventArgs e)
@@ -103,6 +103,14 @@ namespace GestiuneCarti.Forms
                         using (var cmd = new SQLiteCommand("UPDATE Carti SET PRET = @valoare WHERE ID_CARTE = @id_carte", connection))
                         {
                             cmd.Parameters.AddWithValue("@valoare", decimal.Parse(valoareaNoua, CultureInfo.InvariantCulture));
+                            cmd.Parameters.AddWithValue("@id_carte", id_carte);
+                            cmd.ExecuteNonQuery();
+                        }
+                        break;
+                    case "ID_VECHI":
+                        using (var cmd = new SQLiteCommand("UPDATE Carti SET ID_VECHI = @valoare WHERE ID_CARTE = @id_carte", connection))
+                        {
+                            cmd.Parameters.AddWithValue("@valoare", valoareaNoua);
                             cmd.Parameters.AddWithValue("@id_carte", id_carte);
                             cmd.ExecuteNonQuery();
                         }
