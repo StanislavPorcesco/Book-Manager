@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Files\\Biblioteca\\Aplicatie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|d:\\files\\biblioteca\\aplicatie\\gestiunecarti\\forms\\imprimareform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|solutionrelative:gestiunecarti\\forms\\imprimareform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|d:\\files\\biblioteca\\aplicatie\\gestiunecarti\\classes\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|solutionrelative:gestiunecarti\\classes\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|d:\\files\\biblioteca\\aplicatie\\gestiunecarti\\forms\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|solutionrelative:gestiunecarti\\forms\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|d:\\files\\biblioteca\\aplicatie\\gestiunecarti\\forms\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|solutionrelative:gestiunecarti\\forms\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|d:\\files\\biblioteca\\aplicatie\\gestiunecarti\\forms\\searchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|solutionrelative:gestiunecarti\\forms\\searchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|D:\\Files\\Biblioteca\\Aplicatie\\gestiunecarti\\forms\\searchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|solutionrelative:gestiunecarti\\forms\\searchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|D:\\Files\\Biblioteca\\Aplicatie\\gestiunecarti\\forms\\deleteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|solutionrelative:gestiunecarti\\forms\\deleteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Data.cs",
+              "DocumentMoniker": "D:\\Files\\Biblioteca\\Aplicatie\\GestiuneCarti\\Classes\\Data.cs",
+              "RelativeDocumentMoniker": "GestiuneCarti\\Classes\\Data.cs",
+              "ToolTip": "D:\\Files\\Biblioteca\\Aplicatie\\GestiuneCarti\\Classes\\Data.cs",
+              "RelativeToolTip": "GestiuneCarti\\Classes\\Data.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T13:26:23.974Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddForm.cs [Design]",
+              "DocumentMoniker": "D:\\Files\\Biblioteca\\Aplicatie\\GestiuneCarti\\Forms\\AddForm.cs",
+              "RelativeDocumentMoniker": "GestiuneCarti\\Forms\\AddForm.cs",
+              "ToolTip": "D:\\Files\\Biblioteca\\Aplicatie\\GestiuneCarti\\Forms\\AddForm.cs [Design]",
+              "RelativeToolTip": "GestiuneCarti\\Forms\\AddForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T11:56:11.598Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddForm.cs",
+              "DocumentMoniker": "D:\\Files\\Biblioteca\\Aplicatie\\GestiuneCarti\\Forms\\AddForm.cs",
+              "RelativeDocumentMoniker": "GestiuneCarti\\Forms\\AddForm.cs",
+              "ToolTip": "D:\\Files\\Biblioteca\\Aplicatie\\GestiuneCarti\\Forms\\AddForm.cs",
+              "RelativeToolTip": "GestiuneCarti\\Forms\\AddForm.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T16:37:19.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImprimareForm.cs",
+              "DocumentMoniker": "D:\\Files\\Biblioteca\\Aplicatie\\GestiuneCarti\\Forms\\ImprimareForm.cs",
+              "RelativeDocumentMoniker": "GestiuneCarti\\Forms\\ImprimareForm.cs",
+              "ToolTip": "D:\\Files\\Biblioteca\\Aplicatie\\GestiuneCarti\\Forms\\ImprimareForm.cs*",
+              "RelativeToolTip": "GestiuneCarti\\Forms\\ImprimareForm.cs*",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwDsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T11:41:34.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SearchForm.cs",
+              "DocumentMoniker": "D:\\Files\\Biblioteca\\Aplicatie\\GestiuneCarti\\Forms\\SearchForm.cs",
+              "RelativeDocumentMoniker": "GestiuneCarti\\Forms\\SearchForm.cs",
+              "ToolTip": "D:\\Files\\Biblioteca\\Aplicatie\\GestiuneCarti\\Forms\\SearchForm.cs",
+              "RelativeToolTip": "GestiuneCarti\\Forms\\SearchForm.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T16:30:47.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SearchForm.cs [Design]",
+              "DocumentMoniker": "D:\\Files\\Biblioteca\\Aplicatie\\GestiuneCarti\\Forms\\SearchForm.cs",
+              "RelativeDocumentMoniker": "GestiuneCarti\\Forms\\SearchForm.cs",
+              "ToolTip": "D:\\Files\\Biblioteca\\Aplicatie\\GestiuneCarti\\Forms\\SearchForm.cs [Design]",
+              "RelativeToolTip": "GestiuneCarti\\Forms\\SearchForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T16:30:40.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeleteForm.cs [Design]",
+              "DocumentMoniker": "D:\\Files\\Biblioteca\\Aplicatie\\GestiuneCarti\\Forms\\DeleteForm.cs",
+              "RelativeDocumentMoniker": "GestiuneCarti\\Forms\\DeleteForm.cs",
+              "ToolTip": "D:\\Files\\Biblioteca\\Aplicatie\\GestiuneCarti\\Forms\\DeleteForm.cs [Design]",
+              "RelativeToolTip": "GestiuneCarti\\Forms\\DeleteForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T16:26:29.716Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
