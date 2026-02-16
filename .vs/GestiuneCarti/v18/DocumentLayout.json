@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|solutionrelative:gestiunecarti\\forms\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|d:\\files\\biblioteca\\aplicatie\\gestiunecarti\\forms\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|D:\\Files\\Biblioteca\\Aplicatie\\gestiunecarti\\forms\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{571EE9F9-2089-468D-9310-1507EC5F1142}|GestiuneCarti\\GestiuneCarti.csproj|solutionrelative:gestiunecarti\\forms\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -51,8 +51,11 @@
               "ViewState": "AgIAADAAAAAAAAAAAAAYwEIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T13:26:23.974Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -63,8 +66,7 @@
               "ToolTip": "D:\\Files\\Biblioteca\\Aplicatie\\GestiuneCarti\\Forms\\AddForm.cs [Design]",
               "RelativeToolTip": "GestiuneCarti\\Forms\\AddForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T11:56:11.598Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-02-16T11:56:11.598Z"
             },
             {
               "$type": "Document",
@@ -76,8 +78,7 @@
               "RelativeToolTip": "GestiuneCarti\\Forms\\AddForm.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAEAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T16:37:19.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-13T16:37:19.83Z"
             },
             {
               "$type": "Document",
@@ -91,10 +92,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T11:41:34.965Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
